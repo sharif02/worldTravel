@@ -1,13 +1,26 @@
 /* header area Style */
 
+body{
+    font-family: 'poppins', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
 .navigation {
     display: flex;
     width: 100%;
     background-color: rgb(19, 53, 55);
     margin-top: 0px;
     align-items: baseline;
-    position: static;
-
+    position: sticky;
+}
+.heroContent{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 65px;
+    font-weight: 700px;
+    position: relative;
 }
 
 .logoArea {
@@ -30,8 +43,6 @@
 .menu ul li {
     list-style: none;
     padding: 18px;
-
-
 }
 
 .menu ul li a {
@@ -45,15 +56,24 @@
     color: black;
 }
 
-.banner {
+.heroArea {
     background: url(images/travels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
     width: 100%;
     height: 800px;
     margin-bottom: 100px;
-    position: relative;
     color: white;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+/* .banner {
+
+} */
+
 
 /* .banner img {
     width: 100%;
@@ -236,40 +256,47 @@ footer style
     margin: auto;
 }
 
-.footercontent{
+.footercontent {
     padding-top: 40px;
 }
-.footerMenu ul{
+
+.footerMenu ul {
     display: block;
 
 }
-.footerMenu ul li{
+
+.footerMenu ul li {
     list-style: none;
 }
-.footerMenu ul li a{
+
+.footerMenu ul li a {
     text-decoration: none;
 
 }
-.socialicon ul{
+
+.socialicon ul {
     display: flex;
     text-align: center;
 }
+
 .socialicon ul li {
     width: 40px;
-    height: 40px; 
+    height: 40px;
     list-style: none;
     text-align: center;
     margin-top: 2px;
     border-radius: 5px;
     font-size: 22px;
-    
+
 
 }
-.socialicon ul li:hover{
+
+.socialicon ul li:hover {
     color: #676c23;
-    box-shadow: 8px 8px 15px -2px black ;
+    box-shadow: 8px 8px 15px -2px black;
 }
-.socialicon ul li a i{
+
+.socialicon ul li a i {
     color: #f5f5f5;
     justify-items: baseline;
 
