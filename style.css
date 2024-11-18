@@ -46,16 +46,19 @@
 }
 
 .banner {
+    background: url(images/travels.jpg);
     width: 100%;
     height: 800px;
     margin-bottom: 100px;
     position: relative;
+    color: white;
+    background-repeat: no-repeat;
 }
 
-.banner img {
+/* .banner img {
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /* about us area style */
@@ -179,6 +182,7 @@ img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%;
+    justify-content: center;
 
 }
 
