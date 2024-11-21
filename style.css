@@ -259,6 +259,9 @@ footer style
 .footercontent {
     padding-top: 40px;
 }
+.footeritem{
+    padding-top: 50px;
+}
 
 .footerMenu ul {
     display: block;
@@ -279,11 +282,12 @@ footer style
     text-align: center;
 }
 
-.socialicon ul li {
+.socialicon li {
+    list-style: none;
+    display: inline-block;
     width: 40px;
     height: 40px;
-    list-style: none;
-    text-align: center;
+    color: wheat;
     margin-top: 2px;
     border-radius: 5px;
     font-size: 22px;
@@ -291,13 +295,21 @@ footer style
 
 }
 
-.socialicon ul li:hover {
+/* .socialicon li:hover {
     color: #676c23;
     box-shadow: 8px 8px 15px -2px black;
-}
+} */
 
-.socialicon ul li a i {
+.socialicon li a {
     color: #f5f5f5;
     justify-items: baseline;
 
 }
+.socialicon li a:hover {
+   
+    color: #421442;
+    box-shadow: 8px 8px 15px -2px black;
+
+}
+
+.
